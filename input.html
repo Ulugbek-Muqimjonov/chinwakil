@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Input</title>
+</head>
+<body>
+    <header class="site-header">
+        <h1 class="site-header__title text-center fw-bold">INPUT</h1>
+    </header>
+    <main class="site-main">
+        <section class="site-main__hero hero">
+            <div class="container">
+                <form class="hero__form form-control shadow pt-4 pb-4">
+                    <input class="hero__item-name form-control shadow w-100 mb-3" type="text" id="item-name" placeholder="Name..." required>
+                    <textarea class="hero__item-summary form-control shadow w-100 mb-4" placeholder="Description..." required></textarea>
+                    <div class="hero__item-input-img mb-4 "> 
+                    </div>
+                    <label class="hero__item-img-label text-center mb-4" for="item-img" id="upload" >
+                        upload
+                        <input class="hero__form-file form-control w-25" type="file" id="item-img" requared>
+                    </label>
+                    <input class="hero__item-price form-control shadow w-100 mb-3" type="number"  placeholder="Price..." requared>
+                    <button class="hero__btn btn btn-success w-75">submit</button>
+                    </form>
+                </div>
+            </section>
+        </main>
+        <footer class="site-footer">
+            
+        </footer>
+        
+        <script src="./js/input.js"></script>
+    </body>
+    </html>

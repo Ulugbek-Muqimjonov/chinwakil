@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Admin</title>
+</head>
+<body>
+    <header class="site-header">
+        
+    </header>
+    <main class="site-main">
+        <section class="site-main__hero hero">
+            <div class="container">
+                <div class="hero__sitebar">
+                    <h2 class="hero__title text-center fw-bold mt-5">Orders</h2>
+                    <ul class="hero__btn-list d-flex list-unstyled m-0 p-0 w-100 justify-content-between">
+                        <li class="hero__btn-item btn btn-success haveorder">buyurtma berganlar</li>
+                        <li class="hero__btn-item btn btn-danger alluser">royxatdan o'tganlar</li>
+                    </ul>
+                    <ol class="hero__users p-0"> 
+                        
+                    </ol>
+                </div>
+            </div>
+            
+            <!-- Modal -->
+            <div class="js-modal modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLabel">Tanlanganlar</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <ol class="modal__list list-unstyled m-0 p-0">
+                                
+                            </ol>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn-ready btn btn-primary" data-bs-dismiss="modal">Tayyor</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <script src="./js/bootstrap.min.js"></script>
+    <script src="./js/admin.js"></script>
+</body>
+</html>
